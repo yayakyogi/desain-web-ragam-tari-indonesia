@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desain Web Arman</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="photo.html">Photo</a>
+            <a class="active" href="tentang.html">Tentang kami</a>
+         </nav> 
+         <br>
+         <div class="container">
+             <div class="tentang">
+                 <p>
+                     Kami juga membuka membuka khursus untuk menari, apabila anda tertarik untuk bergabung di sanggar kami silahkan mengisi form pendaftaran dibawah ini.
+                </p>
+
+                <div class="daftar">
+                    <form action="daftar.html" method="GET">
+                        <div class="form-modal">
+                            <div class="form-header">
+                                Form Pendaftaran
+                            </div>
+                            <div class="form-body" style="text-align: left;">
+                                <label>Nama Lengkap</label><br>
+                                <input type="text" name="nama" class="form-control" placeholder="Nama lengkap"><br>
+    
+                                <label>TTL</label><br>
+                                <input type="text" name="ttl" class="form-control" placeholder="DD/MM/YYYY"><br>
+    
+                                <label>Jenis Kelamain</label><br>
+                                <select name="jenis_kelamin" class="form-control">
+                                    <option value="-">-Pilih-</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select><br>
+    
+                                <label>Nama Orang Tua/Wali</label><br>
+                                <input type="text" name="orangtua" class="form-control" placeholder="Nama Orang Tua/Wali"><br>
+    
+                                <label>No Hp Saudara</label><br>
+                                <input type="text" name="no-hp" class="form-control" placeholder="No HP anda sendiri"><br>
+    
+                                <label>Alamat</label><br>
+                                <textarea name="alamat" cols="5" rows="5" class="form-control" placeholder="Alamat lengkap"></textarea>
+                                <input type="submit" class="btn-submit" value="Daftar">
+                            </div>
+                        </div>
+                    </form>
+                </div><!--./Daftar-->
+             </div><!--./Tentang-->
+        </div><!--./Container-->
+
+        <!-- footer -->
+        <footer>
+            <small>Copyright &copy; 2021 - Arman. All Rights Reserverd. </small>
+        </footer>
+    </div><!--./Wrapper-->
+</body>
+</html>
